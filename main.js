@@ -1,5 +1,4 @@
 'strict'
-console.log('hello');
 const section1 = document.querySelector('#contact');
 document.querySelector('.btn').addEventListener('click',function(){
     section1.scrollIntoView({behavior:'smooth'});
