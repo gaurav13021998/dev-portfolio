@@ -9,7 +9,7 @@ const revealContainer = function(entries, observer){
     const [entry] = entries;
     if(!entry.isIntersecting) return;
 
-    entry.target.classList.toggle('section--hidden');
+    entry.target.classList.remove('section--hidden');
 
     observer.unobserve(entry.target);
 }
